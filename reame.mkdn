@@ -1,0 +1,24 @@
+Local manifest addon for ICS to build for the Droid X2 (readme based off Kindle Fire)
+
+Getting Started
+---------------
+
+
+Make a build directory:
+
+	mkdir Andoid (or whatever name you choose)
+	cd Android (or the name  you chose)
+	
+
+To initialize your local repository using the CM9 manifest, use commands like these:
+
+    repo init -u https://android.googlesource.com/platform/manifest -b android-4.0.4_r2.1
+    
+    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/dragonzkiller/android_local_daytona/ics/local_manifest.xml
+
+    	( or Download: https://github.com/dragonzkiller/android_local_daytona/blob/ics/local_manifest.xml
+		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
+
+Then to sync up:
+
+    repo sync

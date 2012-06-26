@@ -15,7 +15,7 @@
   <project path="system/core" name="Hashcode/android_system_core" />
   <project path="vendor/cyanogen" name="Hashcode/android_vendor_cyanogen" /> -->
 
-  <project path="kernel/tegra" name="ics_kernel" remote="photon" revision="ics" />
+  <project path="kernel/tegra" name="ics_kernel" remote="photon" revision="master" />
 
   <!-- Local Projects 
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />

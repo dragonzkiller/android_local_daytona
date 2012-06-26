@@ -4,21 +4,15 @@
   <remote  name="photon"
            fetch="git://github.com/photon-dev-team/" />
 
-  <!-- CM Replacements
-  <project path="bootable/recovery" name="Hashcode/android_bootable_recovery" />
-  <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
-  <project path="hardware/ti/omap3" name="Hashcode/android_hardware_ti_omap3" />
-  <project path="hardware/ti/omx" name="Hashcode/android_hardware_ti_omx" />
-  <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" />
-  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
-  <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" />
-  <project path="system/core" name="Hashcode/android_system_core" />
-  <project path="vendor/cyanogen" name="Hashcode/android_vendor_cyanogen" /> -->
+   <!-- CM Replacements -->
+  <project path="frameworks/base" name="dragonzkiller/android_frameworks_base" />
+  <project path="system/core" name="dragonzkiller/android_system_core" />
+  <project path="vendor/cm" name="dragonzkiller/android_vendor_cm" />
 
   <project path="kernel/tegra" name="ics_kernel" remote="photon" revision="master" />
 
-  <!-- Local Projects 
-  <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
-  <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" /> -->
+   <!-- Local Projects -->
+  <project path="device/moto/daytona" name="dragonzkiller/android_device_moto_daytona" />
+  <project path="vendor/moto/daytona" name="dragonzkiller/android_vendor_moto_daytona" />
 
 </manifest>

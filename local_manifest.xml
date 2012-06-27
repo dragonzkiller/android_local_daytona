@@ -14,7 +14,9 @@
   <project path="system/core" name="dragonzkiller/android_system_core" />
   <project path="vendor/cm" name="dragonzkiller/android_vendor_cm" />
 
+   <!-- Photon-Dev-Team Stuff -->
   <project path="kernel/tegra" name="ics_kernel" remote="photon" revision="master" />
+  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" />
 
    <!-- Local Projects -->
   <project path="device/moto/daytona" name="dragonzkiller/android_device_moto_daytona" />

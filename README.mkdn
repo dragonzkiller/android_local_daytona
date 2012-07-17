@@ -6,8 +6,8 @@ Getting Started
 
 Make a build directory:
 
-	mkdir cm9system (or whatever name you choose)
-	cd cm9system (or the name  you chose)
+    mkdir cm9system (or whatever name you choose)
+    cd cm9system (or the name you chose)
 	
 
 To initialize your local repository using the CM9 manifest, use commands like these:
@@ -22,3 +22,18 @@ To initialize your local repository using the CM9 manifest, use commands like th
 Then to sync up:
 
     repo sync
+
+To build CyangogenMod for the Droid X2:
+
+    cd ~/cm9system (or ~/'name you chose')
+    . build/envsetup.sh (or `source build/envsetup.sh')
+    brunch daytona
+
+To build a specific package for the Droid X2:
+
+    cd ~/cm9system (or ~/'name you chose')
+    . build/envsetup.sh (or `source build/envsetup.sh')
+    lunch cm_daytona-userdebug
+    mmm -B location/to/package/ (must have Android.mk in that directory)
+        (or `cd location/to/package/'
+            `mm -B")
